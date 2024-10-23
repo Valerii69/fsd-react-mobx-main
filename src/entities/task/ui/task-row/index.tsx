@@ -10,7 +10,7 @@ type Props = {
 
 export const TaskRow = ({ title, id, action }: Props) => {
   return (
-    <Card style={{ width: "600px" }}>
+    <Card style={{ width: "500px", justifyItems:"center", }}>
       <Space>
         {action}
         <Link to={`/${id}`}>{title}</Link>

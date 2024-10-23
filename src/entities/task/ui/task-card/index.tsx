@@ -16,7 +16,7 @@ export const TaskCard = ({ text, title, actions, loading }: Props) => {
       title={title}
       actions={actions}
       extra={<Link to="/">Back</Link>}
-      style={{ width: "500px" }}
+      style={{ width: "500px", justifyItems: "center" }}
     >
       {text}
     </Card>
